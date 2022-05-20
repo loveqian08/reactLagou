@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -24,3 +25,20 @@ function App() {
 }
 
 export default App;
+
+
+// import { History } from 'history'
+// import './App.css';
+// import { ConnectedRouter   } from 'connected-react-router';
+// import Routes from './Routes';
+
+// interface AppProps {
+//   history: History;
+// }
+// const App = ({ history }: AppProps) => {
+//   return (
+//     <ConnectedRouter history={history}></ConnectedRouter>
+//   )
+// }
+
+// export default App;
